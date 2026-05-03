@@ -11,7 +11,7 @@ args = parser.parse_args()
 
 spark = SparkSession.builder.getOrCreate()
 
-print("Pipeline started1111")
+print("Pipeline started")
 # Use catalog first
 spark.sql(f"USE CATALOG {args.catalog}")
 
