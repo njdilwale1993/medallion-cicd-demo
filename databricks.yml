@@ -54,7 +54,7 @@ targets:
 #  prod:
 #    mode: production
 #    workspace:
-#      host: https://adb-7405618802285527.7.azuredatabricks.net/
+#      host: https://adb-7405618802285527.7.azuredatabricks.net/1
 #    variables:
 #      catalog_name: prod_main
 #      bronze_schema: bronze
